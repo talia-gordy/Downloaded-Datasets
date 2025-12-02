@@ -1,8 +1,9 @@
 
-**IMPORTANT MUST READ
-- The public repository, "Data" is a repository containing datasets found across the web specifically to train ML models. 
-- All data sets contained in this respirtory, may be used for personal/company use. 
-
+**Extra information
+- The public repository, "Downloaded-Datasets" is a repository containing exsisting datasets searched and downloaded across Kaggle.
+- Why use existing datasets/respiratorys?: Speed & convenience, benchmarking, learning & practice, and community support.
+- Want raw datasets?: Consider API's to create raw datasets, new datasets are usually created if: No dataset exists for a specific probelm, allows for customization, originality, real-world deplyment, and research inovation. --> View my respitory labeled: Created-Datasets!
+  
 --------------------------------------------------------------------------------------------------------------------------
 
 HOW TO LOAD DATASET?
@@ -15,7 +16,7 @@ HOW TO LOAD DATASET?
 
 **Copy & Paste**
                     
-              #      import pandas as pd
+                     import pandas as pd
                      df = pd.read_csv('')
                      df
 ------------------------------------------------------------------------------------------------------------------------
