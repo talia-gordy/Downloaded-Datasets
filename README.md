@@ -1,12 +1,14 @@
 
-**Extra information
-- The public repository, "Downloaded-Datasets" is a repository containing exsisting datasets searched and downloaded across Kaggle.
-- Why use existing datasets/respiratorys?: Speed & convenience, benchmarking, learning & practice, and community support.
-- Want raw datasets?: Consider API's to create raw datasets, new datasets are usually created if: No dataset exists for a specific probelm, allows for customization, originality, real-world deplyment, and research inovation. --> View my respitory labeled: Created-Datasets!
-  
+## Overview
+- The public repository, "Downloaded-Datasets" is a repository containing exsisting datasets searched and downloaded across Kaggle for use to train ML models.
+
+## Data source
+https://www.kaggle.com/
+**Note:** These datasets are not under my ownership. Please see the original source for licensing details.
+
 --------------------------------------------------------------------------------------------------------------------------
 
-HOW TO LOAD DATASET?
+## HOW TO LOAD A DATASET?
 
 1. Select the data file you want to use, and click "raw" to go to the raw data file.
 2. Copy the link once you open the raw file.
@@ -14,7 +16,7 @@ HOW TO LOAD DATASET?
 4. Underneath "import pandas as pd" type this code: df = pd.read_csv('*adress line goes here*')
 5. Lastly, underneath "df = pd.read.csv(''), type "df" to print it out.
 
-**Copy & Paste**
+##Usage
                     
                      import pandas as pd
                      df = pd.read_csv('')
